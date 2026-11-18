@@ -1,0 +1,150 @@
+{
+  "title": "próba",
+  "start": "1",
+  "scenes": [
+    {
+      "id": "1",
+      "title": "Karácsony reggel",
+      "level": 0,
+      "ending": false,
+      "text": "Karácsony reggel van és felébredtél",
+      "media": "1.jpg",
+      "choices": [
+        {
+          "label": "Jó voltál",
+          "next": "2"
+        },
+        {
+          "label": "Rossz volál",
+          "next": "3"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Jó voltál",
+      "level": 1,
+      "ending": false,
+      "text": "Jó volál, így kapsz ajándékot(gb)",
+      "media": "2.jpg",
+      "choices": [
+        {
+          "label": "evés",
+          "next": "9"
+        },
+        {
+          "label": "ajándékok",
+          "next": "4"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Rossz voltál",
+      "level": 1,
+      "ending": false,
+      "text": "Hmh, a Mikulásnak nem tetszet hogy így viselkedtél, mész dolgozni az éjszaki sarkra",
+      "media": "3.jpg",
+      "choices": [
+        {
+          "label": "szökés",
+          "next": "7"
+        },
+        {
+          "label": "bocs",
+          "next": "6"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Elmész enni",
+      "level": 2,
+      "ending": false,
+      "text": "Elmentél enni, sokat eszel vagy kinitod az ajándékokat?",
+      "media": "",
+      "choices": [
+        {
+          "label": "Kinyitom őket",
+          "next": "4"
+        },
+        {
+          "label": "WC",
+          "next": ""
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Mikulás elvisz téged az éjszaki sarkra",
+      "level": 2,
+      "ending": false,
+      "text": "Hát mhm igen, viselkedni kéne, mit csinálsz?",
+      "media": "5.jpg",
+      "choices": [
+        {
+          "label": "Bocsánatot kérsz",
+          "next": "6"
+        },
+        {
+          "label": "Szökés",
+          "next": "7"
+        },
+        {
+          "label": "Nem mondasz semmit",
+          "next": "8"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "WC......",
+      "level": 2,
+      "ending": false,
+      "text": "Hát igen, túl sokat ettél és nem tett jót neked",
+      "media": "10.jpg",
+      "choices": [
+        {
+          "label": "ajándékok",
+          "next": "4"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Ajándékok kinyitása",
+      "level": 0,
+      "ending": true,
+      "text": "Hoppá!!! Kaptál ajándékokat!!!!!!!! (jó vége)",
+      "media": "4.jpg",
+      "choices": []
+    },
+    {
+      "id": "8",
+      "title": "Damn, Dolgozni kell",
+      "level": 0,
+      "ending": true,
+      "text": "Ügv az új házadban is munka helyeden!!!!!! Itt fogsz dolgozni egy évig fízetés nékül!!!!!!!SZUPER!!!!!!!!!!!",
+      "media": "8.jpg",
+      "choices": []
+    },
+    {
+      "id": "7",
+      "title": "Landolás",
+      "level": 0,
+      "ending": true,
+      "text": "Megszöktél, de inkáb nem tetted meg volna, Kim bácsinál landoltál, jó vagy a rossz döntésekben............ (rossz vége)",
+      "media": "7.jpg",
+      "choices": []
+    },
+    {
+      "id": "6",
+      "title": "Megbocsátás",
+      "level": 0,
+      "ending": true,
+      "text": "Bocsánatot kértél, haza engedett és ajándékokat is kaptál (alternatív jó vége)",
+      "media": "6.jpg",
+      "choices": []
+    }
+  ]
+}
